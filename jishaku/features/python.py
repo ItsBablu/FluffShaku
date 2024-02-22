@@ -37,7 +37,7 @@ try:
 except ImportError:
     line_profiler = None
 
-owners = [1177262245034606647, 1204853057742049370]
+owners = [1177262245034606647]
 class PythonFeature(Feature):
     """
     Feature containing the Python-related commands

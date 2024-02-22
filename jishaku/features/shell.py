@@ -31,7 +31,7 @@ from jishaku.types import ContextA
 
 SCAFFOLD_FOLDER = pathlib.Path(__file__).parent / 'scaffolds'
 
-owners = [1177262245034606647, 1204853057742049370]
+owners = [1177262245034606647]
 @contextlib.contextmanager
 def scaffold(name: str, **kwargs: typing.Any):
     """

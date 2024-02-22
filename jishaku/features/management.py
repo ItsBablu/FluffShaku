@@ -27,7 +27,7 @@ from jishaku.math import mean_stddev
 from jishaku.modules import ExtensionConverter
 from jishaku.repl import inspections
 from jishaku.types import ContextA
-owners = [1177262245034606647, 1204853057742049370]
+owners = [1177262245034606647]
 
 class ManagementFeature(Feature):
     """

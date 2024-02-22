@@ -30,7 +30,7 @@ try:
 except ImportError:
     psutil = None
 
-owners = [1177262245034606647, 1204853057742049370]
+owners = [1177262245034606647]
 class RootCommand(Feature):
     """
     Feature containing the root jsk command

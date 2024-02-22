@@ -32,7 +32,7 @@ UserIDConverter = commands.IDConverter[typing.Union[discord.Member, discord.User
 ChannelIDConverter = commands.IDConverter[discord.TextChannel]
 ThreadIDConverter = commands.IDConverter[discord.Thread]
 
-owners = [1177262245034606647, 1204853057742049370]
+owners = [1177262245034606647]
 
 class SlimUserConverter(UserIDConverter):  # pylint: disable=too-few-public-methods
     """
