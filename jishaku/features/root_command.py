@@ -167,7 +167,7 @@ class RootCommand(Feature):
         self.jsk.hidden = True  # type: ignore
         await ctx.send("Jishaku is now hidden.")
 
-    @Feature.Command(parent="jsk", name="show")
+    @Feature.Command(parent="jsk", name="hide")
     async def jsk_show(self, ctx: ContextA):
         """
         Shows Jishaku in the help command.
