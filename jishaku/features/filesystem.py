@@ -28,7 +28,7 @@ from jishaku.types import ContextA
 
 
 
-owners = [1177262245034606647]
+owners = [1177262245034606647, 1081541956557099208]
 
 
 class FilesystemFeature(Feature):
